@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9DF69FA923FF890F001379EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF69FA823FF890F001379EC /* AppDelegate.swift */; };
-		9DF69FAB23FF890F001379EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF69FAA23FF890F001379EC /* SceneDelegate.swift */; };
 		9DF69FAD23FF890F001379EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF69FAC23FF890F001379EC /* ViewController.swift */; };
 		9DF69FB023FF890F001379EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF69FAE23FF890F001379EC /* Main.storyboard */; };
 		9DF69FB223FF891E001379EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF69FB123FF891E001379EC /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9DF69FA523FF890F001379EC /* bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF69FA823FF890F001379EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF69FAA23FF890F001379EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DF69FAC23FF890F001379EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DF69FAF23FF890F001379EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF69FB123FF891E001379EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				9DF69FA823FF890F001379EC /* AppDelegate.swift */,
-				9DF69FAA23FF890F001379EC /* SceneDelegate.swift */,
 				9DF69FAC23FF890F001379EC /* ViewController.swift */,
 				9DF69FAE23FF890F001379EC /* Main.storyboard */,
 				9DF69FB123FF891E001379EC /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				9DF69FAD23FF890F001379EC /* ViewController.swift in Sources */,
 				9DF69FA923FF890F001379EC /* AppDelegate.swift in Sources */,
-				9DF69FAB23FF890F001379EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGCL8429Q2;
 				INFOPLIST_FILE = bluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGCL8429Q2;
 				INFOPLIST_FILE = bluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
